@@ -37,3 +37,5 @@ test('สร้าง queue size 1 และ dequeue เลย จะต้อ�
     const q = new Queue(1);
     expect(q.dequeue()).toBe(null);
 })
+
+//Test Bug
